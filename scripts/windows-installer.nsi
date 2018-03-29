@@ -26,7 +26,7 @@ CRCCheck on
 RequestExecutionLevel admin
 
 !searchreplace APPNAMENOHYPEN ${APPNAME} "-" " "
-!define GROUPNAME "Ethereum"
+!define GROUPNAME "Foicoin"
 !define HELPURL "https://github.com/ethereum/mist/releases/issues"
 !define UPDATEURL "https://github.com/ethereum/mist/releases"
 !define ABOUTURL "https://ethereum.org"
