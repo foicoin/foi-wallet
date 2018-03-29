@@ -12,7 +12,7 @@ const shell = require('shelljs');
 const version = require('../package.json').version;
 
 const type = options.type;
-const applicationName = options.wallet ? 'Ethereum Wallet' : 'Mist';
+const applicationName = options.wallet ? 'Foicoin Wallet' : 'FoiBrowser';
 
 gulp.task('clean-dist', cb => {
   return del([`./dist_${type}`, './meteor-dapp-wallet'], cb);
@@ -58,7 +58,7 @@ gulp.task('transpile-modules', () => {
 
 gulp.task('copy-build-folder-files', () => {
   return gulp
-    .src([`./icons/${type}/*`, './interface/public/images/dmg-background.jpg'])
+    .src(['./icons/${type}/*', './interface/public/images/dmg-background.jpg'])
     .pipe(gulp.dest(`./dist_${type}/build`));
 });
 
