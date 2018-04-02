@@ -128,7 +128,7 @@ app.on('ready', async () => {
     dialog.showErrorBox(
       'Insecure RPC connection',
       `
-WARNING: You are connecting to an Ethereum node via: ${Settings.rpcHttpPath}
+WARNING: You are connecting to an Foicoin node via: ${Settings.rpcHttpPath}
 
 This is less secure than using local IPC - your passwords will be sent over the wire in plaintext.
 
