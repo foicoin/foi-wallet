@@ -1,7 +1,7 @@
 {
     "clients": {
         "Geth": {
-            "version": "1.8.2",
+            "version": "0.9",
             "platforms": {
                 "linux": {
                     "x64": {
@@ -45,35 +45,12 @@
                         }
                     }
                 },
-                "mac": {
-                    "x64": {
-                        "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-darwin-amd64-1.8.2-b8b9f7f4.tar.gz",
-                            "type": "tar",
-                            "md5": "33e03f5df5798c3efb8aabd7c11fdd34",
-                            "bin": "geth-darwin-amd64-1.8.2-b8b9f7f4/geth"
-                        },
-                        "bin": "geth",
-                        "commands": {
-                            "sanity": {
-                                "args": [
-                                    "version"
-                                ],
-                                "output": [
-                                    "Geth",
-                                    "1.8.2"
-                                ]
-                            }
-                        }
-                    }
-                },
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-windows-amd64-1.8.2-b8b9f7f4.zip",
+                            "url": "http://foicoin.sg/download/foicoin-windows-0.91v.zip",
                             "type": "zip",
-                            "md5": "f498df54aaa42f4269c2d2d06df482fd",
-                            "bin": "geth-windows-amd64-1.8.2-b8b9f7f4\\geth.exe"
+                            "bin": "foicoin-windows-0.91v\\geth.exe"
                         },
                         "bin": "geth.exe",
                         "commands": {
@@ -82,28 +59,8 @@
                                     "version"
                                 ],
                                 "output": [
-                                    "Geth",
-                                    "1.8.2"
-                                ]
-                            }
-                        }
-                    },
-                    "ia32": {
-                        "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-windows-386-1.8.2-b8b9f7f4.zip",
-                            "type": "zip",
-                            "md5": "4760b54e20de3ee50237ea8df896fb6f",
-                            "bin": "geth-windows-386-1.8.2-b8b9f7f4\\geth.exe"
-                        },
-                        "bin": "geth.exe",
-                        "commands": {
-                            "sanity": {
-                                "args": [
-                                    "version"
-                                ],
-                                "output": [
-                                    "Geth",
-                                    "1.8.2"
+                                    "Foicoin",
+                                    "0.9.1"
                                 ]
                             }
                         }

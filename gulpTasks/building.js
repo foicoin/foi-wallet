@@ -15,7 +15,7 @@ const type = options.type;
 const applicationName = options.wallet ? 'Foicoin Wallet' : 'FoiBrowser';
 
 gulp.task('clean-dist', cb => {
-  return del([`./dist_${type}`, './meteor-dapp-wallet'], cb);
+  return del([`./dist_${type}`, './foicoin-dapp-wallet'], cb);
 });
 
 gulp.task('copy-app-source-files', () => {
@@ -104,10 +104,10 @@ gulp.task('bundling-interface', cb => {
       );
       bundle(`&& cd ../dist_${type} \
                 && git clone --depth 1 https://github.com/foicoin/foicoin-dapp-wallet.git\
-                && cd meteor-dapp-wallet/app \
+                && cd foicoin-dapp-wallet/app \
                 && meteor-build-client ../../app/interface/wallet -p "" \
                 && cd ../../ \
-                && rm -rf meteor-dapp-wallet`);
+                && rm -rf foicoin-dapp-wallet`);
     }
   } else {
     bundle();
