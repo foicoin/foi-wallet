@@ -50,7 +50,7 @@
                         "download": {
                             "url": "http://foicoin.sg/download/foicoin-windows-0.91v.zip",
                             "type": "zip",
-                            "md5": "626894207686600ddb9305171ccb677f",
+                            "md5": "3ece2489005a57e5c16296e3f37ff608",
                             "bin": "geth.exe"
                         },
                         "bin": "geth.exe",
