@@ -11,11 +11,5 @@
                 {{TemplateVar.get "networkName"}} 
             </div>
         {{/if}}
-
-        {{#if $eq (TemplateVar.get "network") "privatenet"}}
-            <div class="devnet indicator" title="This is a developer network">
-                {{i18n "mist.nodeInfo.privateNetwork"}}                 
-            </div>
-        {{/if}}
     </div>
 </template>
