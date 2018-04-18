@@ -392,6 +392,7 @@ let menuTempl = function(webviews) {
   });
 
   // DEVELOP
+  /* not using develop
   const devToolsMenu = [];
   let devtToolsSubMenu;
   let curWindow;
@@ -634,7 +635,7 @@ let menuTempl = function(webviews) {
       i18n.t('mist.applicationMenu.develop.label'),
     submenu: devToolsMenu
   });
-
+  */
   // WINDOW
   menu.push({
     label: i18n.t('mist.applicationMenu.window.label'),
