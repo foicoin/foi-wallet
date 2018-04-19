@@ -691,19 +691,13 @@ let menuTempl = function(webviews) {
     {
       label: i18n.t('mist.applicationMenu.help.mistWiki'),
       click() {
-        shell.openExternal('https://github.com/ethereum/mist/wiki');
-      }
-    },
-    {
-      label: i18n.t('mist.applicationMenu.help.gitter'),
-      click() {
-        shell.openExternal('https://gitter.im/ethereum/mist');
+        shell.openExternal('https://github.com/foicoin/foi-wallet/wiki');
       }
     },
     {
       label: i18n.t('mist.applicationMenu.help.reportBug'),
       click() {
-        shell.openExternal('https://github.com/ethereum/mist/issues');
+        shell.openExternal('https://github.com/foicoin/foi-wallet/issues');
       }
     }
   );
